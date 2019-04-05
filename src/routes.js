@@ -2,6 +2,8 @@ import VueRouter from 'vue-router';
 
 import HomePage from './views/HomePage.vue';
 import WorkPage from './views/WorkPage.vue';
+import AboutPage from './views/AboutPage.vue';
+
 import AmistadWork from './views/portfolio/AmistadWork.vue';
 import CruWork from './views/portfolio/CruWork.vue';
 import RootCellarWork from './views/portfolio/RootCellarWork.vue';
@@ -12,9 +14,11 @@ import UtilityBillingPortal from './views/portfolio/UtilityBillingPortal.vue'
 import UXR from './views/portfolio/UXR.vue'
 
 
+
 const routes = [
   { path: '/', component: HomePage, meta: { title: 'Emily Roller' } },
   { path: '/work', component: WorkPage },
+  { path: '/about', component: AboutPage },
   { path: '/amistad', component: AmistadWork },
   { path: '/cru-uconn', component: CruWork },
   { path: '/root-cellar', component: RootCellarWork },
